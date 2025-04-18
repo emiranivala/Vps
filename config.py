@@ -2,7 +2,7 @@ from os import getenv
 
 API_ID = int(getenv("API_ID", "22642292"))
 API_HASH = getenv("API_HASH", "4502d35191a2fcb02c8467f54789f0ea")
-BOT_TOKEN = getenv("BOT_TOKEN", "7828838025:AAGLyspmmYl2R3E62ez6iqrks4QA8JfcT8s")
+BOT_TOKEN = getenv("BOT_TOKEN", "7797951436:AAGvZc1ZCk-8cqWXAjjeOwjLZ2rT_1Mx-2Y")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "922270982").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://yairhmirsnda417carter:eY2aUsQrgQpOuvIB@cluster0.rlr0w.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP = getenv("LOG_GROUP", "-1002493565037")
